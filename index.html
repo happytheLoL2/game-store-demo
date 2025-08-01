@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="styles.css">
+        <title>Video game store</title>
+        <meta charset="utf-8">
+         
+    </head>
+    <body>
+        <header>
+            <div id="header-text">
+             <h1>Online video game store</h1>
+             <img src="Kepek/logo.jpg" id="header-img" loading="lazy" alt="A man with a controller"/>
+            </div>
+        </header>
+        <section id="main-section">
+            <h2>Welcome to our online video game store!</h2>
+            <p>Here you can find the latest and greatest video games for all platforms.</p>
+            <p>Browse our selection and find your next favorite game!</p>
+        </section>
+        <section id="game-section">
+            <h2>Featured Games</h2>
+            <div id="game-background">
+                <div class="game-item">
+                    <img src="Kepek/Future_Wars_cover.jpg" alt="Future Wars" id="game1">
+                    <h3>Future Wars</h3>
+                    <p>Sci-fi shooter game</p>
+                    <p><a href="#" class="learn-more-link" data-game="future-wars">Learn more</a></p>
+                </div>
+                <div class="game-item">
+                    <img src="Kepek/Pixel_quest.jpg" alt="Pixel quest" id="game2">
+                    <h3>Pixel quest</h3>
+                    <p>Retro platforming game</p>
+                    <p><a href="#" class="learn-more-link" data-game="pixel-quest">Learn more</a></p>
+                </div>
+                <div class="game-item">
+                    <img src="Kepek/r6.jpg" alt="Rs-6" id="game3">
+                    <h3>Tom Clancy's Rainbow Six Siege</h3>
+                    <p>Tactical shooter, strategic game</p>
+                    <p><a href="#" class="learn-more-link" data-game="rs-6">Learn more</a></p>
+                </div>
+                <div class="game-item">
+                   <img src="Kepek/battlefield-5.jpg" alt="battlefield-5" id="game4">
+                   <h3>Battlefield 5</h3>
+                   <p>First person shooter game</p>
+                   <p><a href="#" class="learn-more-link" data-game="battlefield-5">Learn more</a></p>
+                </div>
+                <div class="game-item">
+                   <img src="Kepek/dl.jpeg" alt="Dying Light" id="game5">
+                    <h3>Dying Light</h3>
+                    <p>Survival horror</p>
+                    <p><a href="#" class="learn-more-link" data-game="Dying-light">Learn more</a></p>
+                </div>
+                <div class="game-item">
+                    <img src="Kepek/Firewatch_cover.jpg" alt="Firewatch" id="game6">
+                    <h3>Firewatch</h3>
+                    <p>First person, indie adwenture game</p>
+                    <p><a href="#" class="learn-more-link" data-game="Firewatch">Learn more</a></p>
+                </div>
+                <div class="game-item">
+                    <img src="Kepek/Cyberpunk_2077_box_art.jpg" alt="Cyberpunk_2077" id="game7">
+                    <h3>Cyberpunk 2077</h3>
+                    <p>Open Word story driven rpg</p>
+                    <p><a href="#" class="learn-more-link" data-game="Cyberpunk_2077">Learn more</a></p>
+                </div>
+                <div class="game-item">
+                    <img src="Kepek/the-last-of-us.jpg" alt="the-last-of-us" id="game8">
+                    <h3>The last of us</h3>
+                    <p>Survival story driven horror</p>
+                    <p><a href="#" class="learn-more-link" data-game="the-last-of-us">Learn more</a></p>
+                </div>
+                <div class="game-item game-item-center">
+                    <img src="Kepek/Grand-Theft-Auto-V_coperta.jpeg" alt="GTA5" id="game9">
+                    <h3>Grand theft auto V</h3>
+                    <p>Action Adventure game</p>
+                    <p><a href="#" class="learn-more-link" data-game="GTA5">Learn more</a></p>
+                </div>
+            </div>
+        
+        </section>
+        <section id="learn-more-section" style="display:none;">
+  <div id="game-details"></div>
+  <button id="close-details">Close</button>
+
+</section>
+
+<section id="checkout-section" style="display:none;">
+  <h2>Checkout</h2>
+  <form id="checkout-form">
+    <p>Game: <span id="selected-game-title"></span></p>
+    
+    <label for="edition">Edition:</label>
+    <select id="selected-edition" name="edition"></select>
+    
+    <br><br>
+    
+    <label for="name">Your Name:</label>
+    <input type="text" id="name" name="name" required>
+
+    <br><br>
+    
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required>
+
+    <br><br>
+
+    <button type="submit">Place Order</button>
+    <button type="button" id="cancel-checkout">Cancel</button>
+  </form>
+  <div id="demo-modal" style="display:none;">
+  <div id="demo-modal-content">
+    <p>This is a demo page. No real order will be placed.</p>
+    <button id="close-demo-modal">OK</button>
+  </div>
+</div>
+  </section>
+
+
+  <script src="script.js"></script> 
+</body>
+</html>

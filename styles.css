@@ -1,0 +1,167 @@
+#header-img {
+    width: 100px;
+    position: static; 
+    margin: 0;
+}
+
+body {
+  background:url(Kepek/Signin.png);
+  background-size: cover;         
+  background-repeat: no-repeat;   
+  background-position: center;    
+  background-attachment: fixed;
+  height: 100vh;
+  font-family: 'Franklin Gothic Medium', sans-serif;
+  margin: 0;
+  color: #400C0C;
+}
+
+#header-text {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #400C0C;
+    left: 20px;
+    top: 20px;
+    align-items: center;
+}
+
+#game-background {
+    background: #8f9fce6c;
+    border-radius: 30px;
+    padding: 20px;
+    margin: 10px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    gap: 24px;
+    justify-items: center;
+    align-items: start;
+    max-width: 900px;
+    margin: 10px auto;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.game-item {
+    background: linear-gradient(90deg,rgba(205, 255, 216, 1) 0%, rgba(148, 185, 255, 1) 50%);
+    border-radius: 16px;
+    padding: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    text-align: center;
+    max-width: 200px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+
+.game-item-center {
+    grid-column: 2 / span 2; 
+}
+
+#game1, #game2, #game3, #game4, #game5, #game6, #game7, #game8, #game9 {
+    width: 100%;
+    overflow: hidden;
+}
+
+#main-section{
+    padding: 20px;
+    background-color: rgba(191, 219, 216, 0.616);
+    border-radius: 16px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+#game-section{
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 25px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+
+#learn-more-section{
+    padding: 20px;
+    background-color: rgba(235, 247, 248, 0.8);
+    border-radius: 25px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.151);
+    text-align: center;
+}
+
+#learn-more-section ul{
+    list-style-type: none;
+    
+    
+}
+
+button{
+    background-color: rgb(235, 247, 248);
+    color: rgb(0, 0, 0);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 5px;
+}
+
+button:hover {
+    background-color: rgb(191, 219, 216);
+}
+
+#checkout-section{
+    padding: 20px;
+    background-color: rgba(235, 247, 248, 0.8);
+    border-radius: 25px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.151);
+    text-align: center;
+}
+
+#demo-modal {
+  position: fixed;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(0,0,0,0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+}
+#demo-modal-content {
+  background: rgb(235, 247, 248);
+  padding: 32px 24px;
+  border-radius: 16px;
+  box-shadow: 0 2px 16px rgba(0,0,0,0.2);
+  text-align: center;
+}
+#close-demo-modal {
+  margin-top: 16px;
+  padding: 8px 24px;
+  border: none;
+  background: #8f9fce;
+  color: #400C0C;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.game-item-center {
+    grid-column: 2 / span 2; 
+}
+
+
+@media (max-width: 900px) {
+  .game-item-center {
+    grid-column: auto;
+  }
+  button{
+    size: 14px;
+  }
+}
+
+@media (max-width: 600px) {
+  .game-item-center {
+    grid-column: auto;
+  }
+  button{
+    size: 14px;
+  }
+}
+
