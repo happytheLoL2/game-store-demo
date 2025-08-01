@@ -3,6 +3,9 @@
 This is a mock project for a video game store that includes a responsive HTML/CSS/JavaScript frontend and a fully designed SQL Server database. The site allows users to explore games and simulate a checkout process. This is a demo only — no backend integration.
 
 ---
+## 🎮 Demo 
+   https://stirring-khapse-ee2a21.netlify.app/
+---
 
 ## 🔧 Features
 
